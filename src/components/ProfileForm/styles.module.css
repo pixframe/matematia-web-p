@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  padding: 2em;
+}
+
+.container > h3 {
+  padding: 0 0 1.5em 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.inputsContainer {
+  padding: 1em 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3em;
+}
+
+.header > h2 {
+  font-size: 1.7em;
+  color: #888;
+}
+
+.message {
+  color: green;
+  padding: 0 1em;
+}

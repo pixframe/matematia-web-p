@@ -1,0 +1,98 @@
+.container {
+  padding: 1em;
+  width: 100%;
+  overflow: auto;
+}
+
+.wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.wrapper_noeditable {
+  compose: wrapper;
+  border: 0;
+}
+
+.toolbar {
+  border: 0;
+  border-radius: 5px;
+  margin: 0;
+}
+.toolbar_noeditable {
+  compose: toolbar;
+  display: none !important;
+}
+
+.editor {
+  background: #fff;
+  min-height: 300px;
+  border-radius: 5px;
+  padding: 0 1em;
+  width: 100%;
+}
+.editorReadOnly {
+  compose: editor;
+  background: transparent;
+  height: auto;
+  border-radius: 0;
+}
+
+.editor_noeditable {
+  compose: editor;
+  background: transparent;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.button {
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  color: #444;
+  min-width: 6em;
+}
+
+.inputContainerStyle {
+  padding: 0.4em 0 0.8em 0;
+}
+.inputLabelStyle {
+  font-size: 0.9em;
+  display: block;
+  padding: 0 0 0.3em 0;
+  color: #555;
+}
+
+:global .public-DraftStyleDefault-unorderedListItem {
+  padding: 0.2em 0;
+  height: auto;
+}
+
+:global .public-DraftStyleDefault-unorderedListItem > div {
+  margin: 0;
+}
+
+.length {
+  text-align: right;
+  padding: 0.2em 0;
+}
+
+.errorContainer {
+  height: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.error {
+  color: red;
+}

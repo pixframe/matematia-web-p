@@ -1,0 +1,104 @@
+.list {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  background: #fff;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.listTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6em;
+  min-height: 3.2em;
+}
+
+.listTop > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff;
+}
+
+.footer > button {
+  color: #666;
+  font-size: 1em;
+  padding: 0.2em 1em;
+  cursor: pointer;
+  height: 2.4em;
+}
+
+.body {
+  min-height: 15em;
+}
+
+.searchInputContainer {
+  height: 100%;
+}
+
+.searchInputContainer > div {
+  padding: 0;
+}
+
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  min-height: 15em;
+}
+
+.loading > svg {
+  font-size: 2em;
+  color: #999;
+}
+
+.empty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  min-height: 15em;
+}
+
+.empty > span {
+  font-size: 1.4em;
+  color: #999;
+}
+
+.searching {
+  margin: 0 0.5em;
+  color: #999;
+}
+
+.topButton {
+  font-size: 1em;
+  height: 2.4em;
+  padding: 0 1em;
+  border-radius: 6px;
+  background: #1a73e8;
+  margin-left: 0.5em;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.topButton span {
+  font-size: 0.9rem;
+}

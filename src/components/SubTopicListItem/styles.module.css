@@ -1,0 +1,31 @@
+.item {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow: hidden;
+  break-inside: avoid;
+  background: #fff;
+  font-size: 0.9em;
+}
+
+.item:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item:hover {
+}
+
+.itemName {
+  display: block;
+  font-size: 1em;
+  color: #333;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  font-weight: 500;
+  padding: 1em;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "pixframe-af01c",
+    "production": "matematia-82ea6"
+  },
+  "targets": {
+    "pixframe-af01c": {
+      "hosting": {
+        "matematia": [
+          "matematia"
+        ]
+      }
+    },
+   "matematia-82ea6": {
+      "hosting": {
+        "matematia": [
+          "matematia-82ea6"
+        ]
+      }
+    }
+  }
+}

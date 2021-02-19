@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  list-style: none;
+  quotes: none;
+  font-style: normal;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background: #fff;
+  font-size: 14px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+}
